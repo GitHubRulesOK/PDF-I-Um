@@ -35,8 +35,8 @@ Requires the out of box already installed by Windows 4.NET Framework compiler an
 
 # Technical notes
 C# / Windows Forms  Proof of concept simply add icons and any functions you need or change the dll for newer/different abilities.  
-PDFium native rendering engine , compiled locally with Microsoft's inbuilt C# compiler  
-Target architecture: x86  (AND x64)  
+PDFium native rendering engine, viewer code is compiled locally with Microsoft's inbuilt C# compiler  
+Target architecture: x86  (AND thus x64 too)  
 PDFium runtime PDFium 158.0.8125, distributed by Benoît Blanchon via NuGet (bblanchon.PDFium.Win32).  
 Package licence: Apache License 2.0.  
 **Copyright and third-party notices remain with their respective owners.**  
