@@ -28,6 +28,12 @@ PDF-I-Um.exe "My Document.pdf"
 
 Dropping another PDF onto the existing window replaces the current document. No tabs, no multiple-document clutter.
 
+ - Find is basic, as minimal added to prove its possible.  
+ - Rotate is also rudimentary (all pages one direction only) but serves to show its possible.  
+ - Select and copy text is very basic but possible by stripping along a line of suitable characters. Use Ctrl+C to copy to clipboard.  
+
+This is simply a raw boilerplate you can extend. But as I support SumatraPDF no point in personally trying to catch up, as that has a 20 year head start.
+
 # Compatibility
 Windows 7 SP1 (32-bit or x64)  
 Windows 10  
