@@ -1,12 +1,13 @@
 # PDF-I-Um Viewer
 
-A lightweight, self-building PDF viewer for Windows simply download the CMD and run.
-No binary installer. No tabs. No fuss.
+A lightweight, self-building PDF viewer for Windows.  
+Simply download the CMD and run. No binary installer. No tabs. No fuss.  
 
-PDF-I-Um is a compact Windows PDF viewer built in native Windows C# using latest lightest PDFium.dll for the hard work.
+PDF-I-Um is a compact Windows PDF viewer built in native Windows C# using lightest PDFium.dll for native rendering (for the hard work).
 
-Designed to run even on older Windows systems as well as modern Windows, thus including Windows 7 32-bit.
+Designed to run even on older Windows systems as well as modern Windows, thus including Windows 7 32-bit.  
 
+Attribution: PDFium 158.0.8125 – Benoît Blanchon NuGet distribution (Apache-2.0 package licence).  
 ![mage](https://github.com/GitHubRulesOK/PDF-I-Um/blob/main/PDF-I-Um.png?raw=true)
 
 ## Getting started
