@@ -3,7 +3,7 @@
 A lightweight, self-building PDF viewer for Windows simply download the CMD and run.
 No binary installer. No tabs. No fuss.
 
-PDF-I-Um is a compact Windows PDF viewer built in native Windows C# using latest PDFium.dll for the hard work.
+PDF-I-Um is a compact Windows PDF viewer built in native Windows C# using latest lightest PDFium.dll for the hard work.
 
 Designed to run even on older Windows systems as well as modern Windows, thus including Windows 7 32-bit.
 
@@ -28,16 +28,16 @@ PDF-I-Um.exe "My Document.pdf"
 Dropping another PDF onto the existing window replaces the current document. No tabs, no multiple-document clutter.
 
 # Compatibility
-Windows 7 SP1 (32-bit)  
+Windows 7 SP1 (32-bit or x64)  
 Windows 10  
 Windows 11  
-Requires the .NET Framework compiler and the appropriate PDFium x86 runtime.  
+Requires the out of box already installed by Windows 4.NET Framework compiler and the appropriate PDFium x86 runtime which you can update as required..  
 
 # Technical notes
 C# / Windows Forms  
 PDFium native rendering engine  
 Compiled locally with Microsoft's C# compiler  
+Target architecture: x86  (AND x64)
+Initial PDFium runtime: 158.0.8125  
 
-Target architecture: x86  
-PDFium runtime: 158.0.8125  
-PDF-I-Um — just open the PDF.  
+## PDF-I-Um — just open a PDF.  
