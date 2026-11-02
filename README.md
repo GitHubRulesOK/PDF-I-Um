@@ -34,9 +34,8 @@ Windows 11
 Requires the out of box already installed by Windows 4.NET Framework compiler and the appropriate PDFium x86 runtime which you can update as required..  
 
 # Technical notes
-C# / Windows Forms  Proof of concept simply add icons and any functions you need or change the dll for newer/different abilities.
-PDFium native rendering engine  
-Compiled locally with Microsoft's C# compiler  
+C# / Windows Forms  Proof of concept simply add icons and any functions you need or change the dll for newer/different abilities.  
+PDFium native rendering engine , compiled locally with Microsoft's inbuilt C# compiler  
 Target architecture: x86  (AND x64)
 Initial PDFium runtime: 158.0.8125  
 
