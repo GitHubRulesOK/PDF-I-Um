@@ -80,7 +80,7 @@ exit /b
 
 NOTES
 -----
-Recomended name "PDF-I-Um"........Version 1 release 2026-11-02-1
+Recomended name "PDF-I-Um"........Version 1 release 2026-11-02-2
 
 This is a self‑compiling C# utility.
 Run this .CMD file to compile PDF-I-Um.exe.
@@ -139,14 +139,17 @@ static class PDF
 class Program
 {
     [STAThread]
-    static void Main()
+    static void Main(string[] args)
     {
         try
         {
             PDF.FPDF_InitLibrary();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Viewer());
+            Viewer viewer = new Viewer();
+            if (args.Length > 0)
+                viewer.OpenFile(args[0]);
+            Application.Run(viewer);
         }
         catch (Exception ex)
         {
@@ -257,6 +260,11 @@ class Viewer : Form
         Controls.Add(status);
         Controls.Add(toolbar);
         FormClosing += delegate { CloseDocument(); };
+    }
+
+    public void OpenFile(string filename)
+    {
+        LoadPdf(filename);
     }
 
     void AddButton(string name, EventHandler handler)
