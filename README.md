@@ -39,6 +39,6 @@ PDFium native rendering engine , compiled locally with Microsoft's inbuilt C# co
 Target architecture: x86  (AND x64)  
 PDFium runtime PDFium 158.0.8125, distributed by Benoît Blanchon via NuGet (bblanchon.PDFium.Win32).  
 Package licence: Apache License 2.0.  
-Copyright and third-party notices remain with their respective owners.  
+**Copyright and third-party notices remain with their respective owners.  **
 
 ## PDF-I-Um — just open a PDF.  
