@@ -11,7 +11,7 @@ Attribution: PDFium 158.0.8125 – Benoît Blanchon NuGet distribution (Apache-2
 ![mage](https://github.com/GitHubRulesOK/PDF-I-Um/blob/main/PDF-I-Um.png?raw=true)
 
 ## Getting started
-Download just the cmd file or clone this repository as a zip file and run:
+Download just the cmd file or clone / download this repository as a zip file https://codeload.github.com/GitHubRulesOK/PDF-I-Um/zip/refs/heads/main and run:
 
 PDF-I-Um.cmd
 
